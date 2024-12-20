@@ -101,8 +101,8 @@ publishing {
             afterEvaluate {
                 from(components["release"])
                 groupId = "me.deema.android"
-                artifactId = "deema.android.sdk"
-                version = "1.0"
+                artifactId = "deema-sdk"
+                version = "0.0.1"
             }
         }
     }
