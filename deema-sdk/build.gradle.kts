@@ -102,7 +102,7 @@ publishing {
                 from(components["release"])
                 groupId = "me.deema.android"
                 artifactId = "deema-sdk"
-                version = "0.0.1"
+                version = "0.0.2"
             }
         }
     }
