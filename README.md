@@ -15,12 +15,24 @@ The **Deema SDK** enables seamless integration with our Buy Now, Pay Later (BNPL
 
 ## Installation
 
-To include the Deema SDK in your Android project, add the following dependency to your `build.gradle`:
+
+To include the Deema SDK in your Android project:
+
+**1-** Add it in your root `build.gradle` at the end of repositories:
+```gradle
+	dependencyResolutionManagement {
+		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+		repositories {
+			mavenCentral()
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+**2-** Add the following dependency to your `build.gradle`:
 
 ```gradle
 dependencies {
-    // TODO: set the SDK package ID
-    implementation "com.example:deema-sdk:1.0.0"
+	implementation 'com.github.ghazwan-safi:deema-andriod-sdk:Tag'
 }
 ```
 
