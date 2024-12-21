@@ -32,7 +32,7 @@ To include the Deema SDK in your Android project:
 
 ```gradle
 dependencies {
-	implementation 'com.github.ghazwan-safi:deema-andriod-sdk:Tag'
+	implementation 'com.github.ghazwan-safi:deema-andriod-sdk:version_number'
 }
 ```
 
