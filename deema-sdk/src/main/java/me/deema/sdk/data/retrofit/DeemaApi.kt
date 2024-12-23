@@ -7,7 +7,7 @@ import retrofit2.http.Body
 import retrofit2.http.POST
 
 interface DeemaApi {
-    @POST(EndPoint.merchant)
+    @POST(EndPoint.createPurchase)
     suspend fun getPurchaseOrder(
         @Body request: PurchaseOrderRequest
     ): PurchaseRequestResponseModel
